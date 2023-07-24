@@ -1,0 +1,236 @@
+ [
+    {
+      "_id": 1,
+      "collegeName": "University College London (UCL)",
+      "collegeImage": "https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg?w=740&t=st=1690107212~exp=1690107812~hmac=72129e2d5f2d8a276035dfa8ef2aeb67aa45a20bd0a26f3067ef1fa05b3fa96a",
+      "admissionDates": "August 1 - August 30",
+      "events": [
+        {
+          "eventName": "Freshers' Welcome",
+          "date": "September 5, 2023",
+          "location": "London, England, United Kingdom",
+          "description": "A warm welcome event for all new students to kickstart their college journey."
+        },
+        {
+          "eventName": "Inter-College Sports Meet",
+          "date": "November 15-17, 2023",
+          "location": "College 1 Sports Ground",
+          "description": "Compete with other colleges in various sports events and showcase your skills."
+        }
+      ],
+      "researchHistory": [
+        {
+          "researchTitle": "Environmental Sustainability",
+          "authors": "John Doe, Jane Smith",
+          "publicationDate": "June 2022",
+          "description": "A study on promoting environmental sustainability and eco-friendly practices."
+        }
+      ],
+      "sportsCategories": [
+        "Football",
+        "Basketball",
+        "Athletics",
+        "Badminton",
+        "Swimming"
+      ],
+      "admissionProcess": "Prospective students need to apply through the college website and appear for an entrance exam.",
+      "eventsDetails": "Information about events and schedules will be provided on the college bulletin boards and website.",
+      "researchWorks": "The college encourages research projects and collaborates with industry experts and research institutions.",
+      "sportsDetails": "The college offers sports scholarships and organizes regular sports coaching camps for students."
+    },
+    {
+      "_id": 2,
+      "collegeName": "Yale University - New Haven",
+      "collegeImage": "https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661462.jpg?w=740&t=st=1690107307~exp=1690107907~hmac=42b70da159c37ed673a1ce17369e3c6dd79a3b9b6f66c360f51634f7e028f320",
+      "admissionDates": "July 10 - August 25",
+      "events": [
+        {
+          "eventName": "Tech Expo",
+          "date": "September 12, 2023",
+          "location": "Connecticut, USA",
+          "description": "An exhibition of innovative technology projects and research from students."
+        },
+        {
+          "eventName": "Cultural Fest",
+          "date": "November 8-10, 2023",
+          "location": "College 2 Grounds",
+          "description": "Experience the rich cultural diversity through music, dance, and art performances."
+        }
+      ],
+      "researchHistory": [
+        {
+          "researchTitle": "Artificial Intelligence Applications",
+          "authors": "Emily Brown, Mark Johnson",
+          "publicationDate": "March 2021",
+          "description": "A comprehensive exploration of AI applications in various industries and domains."
+        }
+        
+      ],
+      "sportsCategories": [
+        "Cricket",
+        "Tennis",
+        "Volleyball",
+        "Table Tennis",
+        "Hockey"
+      ],
+      "admissionProcess": "Aspiring students can apply online and will be selected based on merit and entrance test performance.",
+      "eventsDetails": "Detailed event schedules and registration information will be shared on the college's official website.",
+      "researchWorks": "The college supports student research projects and encourages interdisciplinary collaboration.",
+      "sportsDetails": "The college has excellent sports facilities and teams participating in national and regional sports competitions."
+    },
+    {
+      "_id": 3,
+      "collegeName": "University of Cambridge - Cambridge",
+      "collegeImage": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-45.jpg?w=826&t=st=1690107339~exp=1690107939~hmac=1ca1736204948a8937505caa714337529a5ff471c0e1fd2b019e715fc7a28fbd",
+      "admissionDates": "July 20 - August 15",
+      "events": [
+        {
+          "eventName": "College Fest",
+          "date": "September 10-12, 2023",
+          "location": "England, United Kingdom",
+          "description": "A three-day extravaganza with cultural performances, competitions, and workshops."
+        },
+        {
+          "eventName": "Annual Science Exhibition",
+          "date": "November 25, 2023",
+          "location": "College 3 Auditorium",
+          "description": "Showcasing scientific projects and innovations from students across disciplines."
+        }
+      ],
+      "researchHistory": [
+        {
+          "researchTitle": "Healthcare Innovations",
+          "authors": "Michael Adams, Olivia Johnson",
+          "publicationDate": "April 2022",
+          "description": "Exploring groundbreaking healthcare innovations and their potential impact."
+        }
+      ],
+      "sportsCategories": ["Soccer", "Golf", "Swimming", "Chess", "Athletics"],
+      "admissionProcess": "Applicants need to fill out an online form and attend an admission interview.",
+      "eventsDetails": "Stay updated with the event schedule through college social media channels and notice boards.",
+      "researchWorks": "The college collaborates with industries and government agencies for cutting-edge research projects.",
+      "sportsDetails": "The college promotes a healthy sports culture and provides training facilities to improve sports skills."
+    },
+    {
+      "_id": 4,
+      "collegeName": "University of Oxford - Oxford",
+      "collegeImage": "https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661463.jpg?w=740&t=st=1690107371~exp=1690107971~hmac=327221795b6397235f0d16b260fa7ef9f2bcc3322bff959b43330eeea744900e",
+      "admissionDates": "August 5 - August 31",
+      "events": [
+        {
+          "eventName": "Tech Hackathon",
+          "date": "September 18-19, 2023",
+          "location": "England, United Kingdom",
+          "description": "A 24-hour coding event for tech enthusiasts to solve real-world challenges."
+        },
+        {
+          "eventName": "Literary Symposium",
+          "date": "November 20-22, 2023",
+          "location": "College 4 Auditorium",
+          "description": "An intellectual gathering celebrating literature and creative expression."
+        }
+      ],
+      "researchHistory": [
+        {
+          "researchTitle": "Artificial Neural Networks",
+          "authors": "Christopher Lee, Emma Davis",
+          "publicationDate": "February 2022",
+          "description": "A study on the applications and advancements of artificial neural networks."
+        }
+        
+      ],
+      "sportsCategories": [
+        "Basketball",
+        "Badminton",
+        "Volleyball",
+        "Tennis",
+        "Table Tennis"
+      ],
+      "admissionProcess": "Candidates must apply online and appear for an entrance test followed by a personal interview.",
+      "eventsDetails": "Detailed information about events and registrations will be available on the college website.",
+      "researchWorks": "The college conducts interdisciplinary research and publishes research papers in reputed journals.",
+      "sportsDetails": "The college provides expert coaching in various sports and organizes intramural tournaments."
+    },
+     {
+       "_id": 5,
+       "collegeName": "Stanford University",
+       "collegeImage": "https://img.freepik.com/free-photo/modern-amphitheater-usa_1268-14358.jpg?w=740&t=st=1690107399~exp=1690107999~hmac=5b625e9e0aeddb109dc1b1ec4388357839e8d243b99890c0dacc2cebc26d414a",
+       "admissionDates": "August 15 - September 10",
+       "events": [
+         {
+           "eventName": "Cultural Diversity Day",
+           "date": "September 22, 2023",
+           "location": " Stanford, California, USA",
+           "description": "Celebrate cultural diversity with performances, food, and interactive activities."
+         },
+         {
+           "eventName": "Inter-College Debate Competition",
+           "date": "November 10-12, 2023",
+           "location": "College 5 Auditorium",
+           "description": "Participate in thought-provoking debates on contemporary issues."
+         }
+       ],
+       "researchHistory": [
+         {
+           "researchTitle": "Renewable Energy Solutions",
+           "authors": "Andrew Johnson, Sophia Miller",
+           "publicationDate": "July 2022",
+           "description": "Innovative research on harnessing renewable energy for a sustainable future."
+         }
+       ],
+       "sportsCategories": [
+         "Football",
+         "Basketball",
+         "Swimming",
+         "Cricket",
+         "Tennis"
+       ],
+       "admissionProcess": "Prospective students should complete the online application and attend a group discussion and personal interview.",
+       "eventsDetails": "Stay updated with event announcements through the college's official communication channels.",
+       "researchWorks": "The college actively collaborates with industries and research organizations for impactful research.",
+       "sportsDetails": "The college has a well-equipped sports complex and offers scholarships to talented athletes."
+     },
+    {
+      "_id": 6,
+      "collegeName": "Harvard University",
+      "collegeImage": "https://img.freepik.com/free-photo/skyline-window-sun-scene-sky_1127-2330.jpg?w=740&t=st=1690107446~exp=1690108046~hmac=5b355981ad9ab18971569968dad624b8cdf9ddcaafb7550b6aa2810d7c582b44",
+      "admissionDates": "July 25 - August 20",
+      "events": [
+        {
+          "eventName": "Tech Symposium",
+          "date": "September 29, 2023",
+          "location": "Cambridge, Massachusetts, USA",
+          "description": "An exhibition of the latest technological advancements and research projects."
+        },
+        {
+          "eventName": "Annual Drama Festival",
+          "date": "November 18-20, 2023",
+          "location": "College 6 Auditorium",
+          "description": "Enjoy captivating drama performances by talented student actors."
+        }
+      ],
+      "researchHistory": [
+        {
+          "researchTitle": "AI in Education",
+          "authors": "Olivia White, David Wilson",
+          "publicationDate": "March 2022",
+          "description": "A study on the integration of artificial intelligence in the education sector."
+        }
+      ],
+      "sportsCategories": [
+        "Cricket",
+        "Volleyball",
+        "Badminton",
+        "Table Tennis",
+        "Hockey"
+      ],
+      "admissionProcess": "Applicants need to submit an online application and will be shortlisted based on academic records and an entrance exam.",
+      "eventsDetails": "Stay tuned to the college website for event schedules and registration details.",
+      "researchWorks": "The college encourages interdisciplinary research and supports research projects with funding.",
+      "sportsDetails": "The college has excellent sports infrastructure and regularly hosts inter-college sports competitions."
+    }
+    
+ 
+]
+
+
