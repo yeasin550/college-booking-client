@@ -11,6 +11,8 @@ import Admission from "../Pages/Admission/Admission";
 import MyCollege from "../Pages/MyCollege/MyCollege";
 import UserProfile from "../Shared/UserProfile/UserProfile";
 import PopularCollegeDetails from "../components/PopularCollege/PopularCollegeDetails";
+import PrivateRoute from "./PrivateRoute";
+import AdmissionCollegeForm from "../Pages/Admission/AdmissionCollegeForm";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +30,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/admission",
-        element: <Admission></Admission>,
+        element: (
+          <PrivateRoute>
+            <Admission></Admission>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/myCollege",
@@ -49,6 +55,14 @@ const router = createBrowserRouter([
       {
         path: "/popularCollegeDetails/:id",
         element: <PopularCollegeDetails></PopularCollegeDetails>,
+        loader: ({ params }) =>
+          fetch(
+            `https://college-booking-server-peach.vercel.app/college/${params.id}`
+          ),
+      },
+      {
+        path: "/admissionCollegeForm/:id",
+        element: <AdmissionCollegeForm></AdmissionCollegeForm>,
         loader: ({ params }) =>
           fetch(
             `https://college-booking-server-peach.vercel.app/college/${params.id}`

@@ -1,62 +1,49 @@
-import { useEffect, useState } from "react";
-import AdmissionCollege from "./AdmissionCollege";
+// import { useEffect, useState } from "react";
+// import AdmissionCollegeFormCollege from "./AdmissionCollegeFormCollege";
 
-const Admission = () => {
-  // const [collegeName, setCollegeName] = useState("");
-  // const [candidateName, setCandidateName] = useState("");
-  // const [subject, setSubject] = useState("");
-  // const [candidateEmail, setCandidateEmail] = useState("");
-  // const [candidatePhone, setCandidatePhone] = useState("");
-  // const [address, setAddress] = useState("");
-  // const [dateOfBirth, setDateOfBirth] = useState("");
-  // const [image, setImage] = useState(null);
+import { useLoaderData, useParams } from "react-router-dom";
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const form = e.target.value;
-  //   const collegeName = form.value.collegeName;
-   
-  //     collegeName,
-  //     candidateName,
-  //     subject,
-  //     candidateEmail,
-  //     candidatePhone,
-  //     address,
-  //     dateOfBirth,
-  //     image,
-  //   });
-  // };
+const AdmissionCollegeForm = () => {
+          const { id } = useParams();
+    const collegeForm = useLoaderData();
+    console.log(collegeForm)
+    console.log(id)
 
 
-  const [colleges, setColleges] = useState([]);
-  
-   //   console.log(colleges);
-   useEffect(() => {
-     // fetch("college.json")
-     fetch("https://college-booking-server-peach.vercel.app/colleges")
-      //  fetch("http://localhost:5000/colleges")
-       .then((res) => res.json())
-       .then((data) => {
-         setColleges(data);
-         // console.log(data)
-       });
-   }, []);
+//   const [collegeName, setCollegeName] = useState("");
+//   const [candidateName, setCandidateName] = useState("");
+//   const [subject, setSubject] = useState("");
+//   const [candidateEmail, setCandidateEmail] = useState("");
+//   const [candidatePhone, setCandidatePhone] = useState("");
+//   const [address, setAddress] = useState("");
+//   const [dateOfBirth, setDateOfBirth] = useState("");
+//   const [image, setImage] = useState(null);
 
+//     const handleSubmit = (e) => {
+//         e.preventDefault();
+//         const form = e.target.value;
+//         const collegeName = form.value.collegeName;
+
+//         collegeName,
+//             candidateName,
+//             subject,
+//             candidateEmail,
+//             candidatePhone,
+//             address,
+//             dateOfBirth,
+//             image,
+
+//   }
   return (
     <div>
       <h1 className="text-2xl my-9 font-bold mb-4 text-center">
-        College Admission
+        College AdmissionCollegeForm
       </h1>
-
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {colleges.map((college) => (
-          <AdmissionCollege key={college._id} college={college}></AdmissionCollege>
-        ))}
-      </div>
 
       
 
-      {/* <form onSubmit={handleSubmit}>
+      <form>
+      {/* <form onSubmit={handleSubmit}> */}
         <div className="flex gap-5">
           <div className="mb-4 w-1/2">
             <label htmlFor="setCollegeName" className="block font-bold">
@@ -67,8 +54,8 @@ const Admission = () => {
               id="setCollegeName"
               name="setCollegeName"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={collegeName}
-              onChange={(e) => setCollegeName(e.target.value)}
+            //   value={collegeName}
+            //   onChange={(e) => setCollegeName(e.target.value)}
               required
             />
           </div>
@@ -81,8 +68,8 @@ const Admission = () => {
               id="candidate_name"
               name="candidate_name"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={candidateName}
-              onChange={(e) => setCandidateName(e.target.value)}
+            //   value={candidateName}
+            //   onChange={(e) => setCandidateName(e.target.value)}
               required
             />
           </div>
@@ -98,8 +85,8 @@ const Admission = () => {
               id="subject"
               name="subject"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
+            //   value={subject}
+            //   onChange={(e) => setSubject(e.target.value)}
               required
             />
           </div>
@@ -112,8 +99,8 @@ const Admission = () => {
               id="candidate_email"
               name="candidate_email"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={candidateEmail}
-              onChange={(e) => setCandidateEmail(e.target.value)}
+            //   value={candidateEmail}
+            //   onChange={(e) => setCandidateEmail(e.target.value)}
               required
             />
           </div>
@@ -129,8 +116,8 @@ const Admission = () => {
               id="candidate_phone"
               name="candidate_phone"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={candidatePhone}
-              onChange={(e) => setCandidatePhone(e.target.value)}
+            //   value={candidatePhone}
+            //   onChange={(e) => setCandidatePhone(e.target.value)}
               required
             />
           </div>
@@ -145,8 +132,8 @@ const Admission = () => {
               rows="4"
               
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
+            //   value={address}
+            //   onChange={(e) => setAddress(e.target.value)}
               required
             />
           </div>
@@ -162,8 +149,8 @@ const Admission = () => {
               id="date_of_birth"
               name="date_of_birth"
               className="w-full p-2 border-[2px] border-red-500 rounded"
-              value={dateOfBirth}
-              onChange={(e) => setDateOfBirth(e.target.value)}
+            //   value={dateOfBirth}
+            //   onChange={(e) => setDateOfBirth(e.target.value)}
               required
             />
           </div>
@@ -177,7 +164,7 @@ const Admission = () => {
               id="image"
               name="image"
               className="w-full p-2 border border-red-500 rounded"
-              onChange={(e) => setImage(e.target.files[0])}
+            //   onChange={(e) => setImage(e.target.files[0])}
               required
             />
           </div>
@@ -191,9 +178,9 @@ const Admission = () => {
           Submit
         </button>
         </div>
-      </form> */}
+      </form>
     </div>
   );
 };
 
-export default Admission;
+export default AdmissionCollegeForm;

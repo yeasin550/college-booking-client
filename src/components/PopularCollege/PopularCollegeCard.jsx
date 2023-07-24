@@ -2,10 +2,14 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, Navigate, useLocation } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const PopularCollegeCard = ({ college }) => {
+  const { user } = useContext(AuthContext)
+  // const location = useLocation();
+  // <Navigate to="/login" state={{ from: location }} replace />;
 //   const [isOpen, setIsOpen] = useState(false);
   console.log(college)
 
@@ -66,11 +70,12 @@ const PopularCollegeCard = ({ college }) => {
             </div>
           ))}
         </div>
+        
         <div className="text-center mb-3">
           <Link to={`/popularCollegeDetails/${_id}`}>
            
             <button
-            //   onClick={openModal}
+            
               className="text-indigo-700 border-red-600 border-2 py-2 px-6  rounded inline-flex"
             >
               View Details
@@ -87,10 +92,9 @@ const PopularCollegeCard = ({ college }) => {
               </svg>
             </button>
           </Link>
-
-        
+          </div> 
+     
       
-        </div>
       </div>
     </div>
   );

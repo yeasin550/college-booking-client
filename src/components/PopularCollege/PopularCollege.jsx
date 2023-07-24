@@ -12,11 +12,12 @@ const PoplarCollege = () => {
   useEffect(() => {
     // fetch("college.json")
       fetch("https://college-booking-server-peach.vercel.app/colleges")
-      .then((res) => res.json())
-      .then((data) => {
-        setColleges(data.slice(3));
-        // console.log(data);
-      });
+      // fetch("http://localhost:5000/colleges")
+        .then((res) => res.json())
+        .then((data) => {
+          setColleges(data.slice(3));
+          // console.log(data);
+        });
   }, []);
 
   const handleSearch = (event) => {

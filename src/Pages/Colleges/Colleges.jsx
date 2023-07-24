@@ -7,11 +7,12 @@ const Colleges = () => {
   useEffect(() => {
     // fetch("college.json")
       fetch("https://college-booking-server-peach.vercel.app/colleges")
-      .then((res) => res.json())
-      .then((data) => {
-        setColleges(data);
-        // console.log(data)
-      });
+      // fetch("http://localhost:5000/colleges")
+        .then((res) => res.json())
+        .then((data) => {
+          setColleges(data);
+          // console.log(data)
+        });
   }, []);
 
   return (
