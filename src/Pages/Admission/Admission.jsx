@@ -45,7 +45,7 @@ const Admission = () => {
   return (
     <div>
       <h1 className="text-2xl my-9 font-bold mb-4 text-center">
-        College Admission
+        College Admissions
       </h1>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
